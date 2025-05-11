@@ -1,0 +1,58 @@
+{
+  "_fv": 77,
+  "_type": "fluid",
+  "definition": {
+    "name": "Void Fluid",
+    "bucketName": "Bucket of Void Fluid",
+    "textureStill": "void_rare",
+    "textureFlowing": "void_fluid_flowing",
+    "textureRenderOverlay": "portal_fluid_overlay",
+    "hasFog": true,
+    "fogColor": {
+      "value": -13434829,
+      "falpha": 0.0
+    },
+    "fogStartDistance": {
+      "fixedValue": 0.0
+    },
+    "fogEndDistance": {
+      "fixedValue": 2.0
+    },
+    "tintType": "No tint",
+    "canMultiply": false,
+    "flowRate": 5,
+    "levelDecrease": 1,
+    "slopeFindDistance": 16,
+    "spawnParticles": true,
+    "dripParticle": {
+      "value": "REVERSE_PORTAL"
+    },
+    "flowStrength": -3.0,
+    "luminosity": 23,
+    "density": 42345,
+    "viscosity": 52453,
+    "temperature": 0,
+    "type": "WATER",
+    "generateBucket": true,
+    "textureBucket": "bucket_of_void_fluid",
+    "creativeTabs": [],
+    "emptySound": {
+      "value": "item.bucket.empty"
+    },
+    "rarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "resistance": 2.147483647E9,
+    "luminance": 15,
+    "lightOpacity": 15,
+    "emissiveRendering": true,
+    "tickRate": 20,
+    "flammability": 543,
+    "fireSpreadSpeed": 432,
+    "colorOnMap": "PURPLE",
+    "onTickUpdate": {
+      "name": "VoidTsunamiFlow"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "fluid.simple_tsunamis.tsunami_water": "Tsunami Water",
+  "item.simple_tsunamis.tsunami_water_bucket": "Bucket of Water Tsunami",
+  "block.simple_tsunamis.tsunami_water": "Tsunami Water",
+  "block.simple_tsunamis.tsunami_lava": "Tsunami Lava",
+  "item.simple_tsunamis.tsunami_lava_bucket": "Bucket of Lava Tsunami",
+  "fluid.simple_tsunamis.voidfluidtype_1": "Void Fluid",
+  "item.simple_tsunamis.voidfluidtype_1_bucket": "Bucket of Void Fluid",
+  "fluid.simple_tsunamis.voidfluidtype_2": "Void Fluid",
+  "item.simple_tsunamis.voidfluidtype_2_bucket": "Bucket of Void Fluid",
+  "item_group.simple_tsunamis.simple_tsunami": "Simple Tsunami",
+  "fluid.simple_tsunamis.tsunami_lava": "Tsunami Lava",
+  "block.simple_tsunamis.voidfluidtype_2": "Void Fluid",
+  "block.simple_tsunamis.voidfluidtype_1": "Void Fluid"
+}

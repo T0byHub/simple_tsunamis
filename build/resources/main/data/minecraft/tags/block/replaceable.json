@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "simple_tsunamis:voidfluidtype_2",
+    "simple_tsunamis:voidfluidtype_1",
+    "simple_tsunamis:tsunami_lava",
+    "simple_tsunamis:tsunami_water"
+  ]
+}

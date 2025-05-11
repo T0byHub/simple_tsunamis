@@ -1,0 +1,246 @@
+{
+  "mod_elements": [
+    {
+      "name": "TsunamiWater",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tsunami_water",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/simple_tsunamis/models/item/tsunami_water_bucket.json",
+          "src/main/resources/assets/simple_tsunamis/models/block/tsunami_water.json",
+          "src/main/java/net/chaos/simpletsunamis/fluid/TsunamiWaterFluid.java",
+          "src/main/resources/assets/simple_tsunamis/items/tsunami_water_bucket.json",
+          "src/main/resources/assets/simple_tsunamis/blockstates/tsunami_water.json",
+          "src/main/java/net/chaos/simpletsunamis/fluid/types/TsunamiWaterFluidType.java",
+          "src/main/java/net/chaos/simpletsunamis/item/TsunamiWaterItem.java",
+          "src/main/java/net/chaos/simpletsunamis/block/TsunamiWaterBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "TsunamiFlow",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tsunami_flow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/chaos/simpletsunamis/procedures/TsunamiFlowProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SimpleTsunami",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "simple_tsunami",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "LavaTsunamiFlow",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lava_tsunami_flow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/chaos/simpletsunamis/procedures/LavaTsunamiFlowProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TsunamiLava",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tsunami_lava",
+      "metadata": {
+        "files": [
+          "src/main/java/net/chaos/simpletsunamis/fluid/TsunamiLavaFluid.java",
+          "src/main/resources/assets/simple_tsunamis/models/block/tsunami_lava.json",
+          "src/main/resources/assets/simple_tsunamis/blockstates/tsunami_lava.json",
+          "src/main/resources/assets/simple_tsunamis/items/tsunami_lava_bucket.json",
+          "src/main/java/net/chaos/simpletsunamis/fluid/types/TsunamiLavaFluidType.java",
+          "src/main/java/net/chaos/simpletsunamis/block/TsunamiLavaBlock.java",
+          "src/main/java/net/chaos/simpletsunamis/item/TsunamiLavaItem.java",
+          "src/main/resources/assets/simple_tsunamis/models/item/tsunami_lava_bucket.json"
+        ]
+      }
+    },
+    {
+      "name": "TsunamiLavaMobplayerCollidesBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tsunami_lava_mobplayer_collides_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/chaos/simpletsunamis/procedures/TsunamiLavaMobplayerCollidesBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VoidTsunamiFlow",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_tsunami_flow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/chaos/simpletsunamis/procedures/VoidTsunamiFlowProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Voidfluidtype1",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "voidfluidtype_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/simple_tsunamis/models/item/voidfluidtype_1_bucket.json",
+          "src/main/resources/assets/simple_tsunamis/items/voidfluidtype_1_bucket.json",
+          "src/main/resources/assets/simple_tsunamis/models/block/voidfluidtype_1.json",
+          "src/main/java/net/chaos/simpletsunamis/fluid/types/Voidfluidtype1FluidType.java",
+          "src/main/java/net/chaos/simpletsunamis/fluid/Voidfluidtype1Fluid.java",
+          "src/main/resources/assets/simple_tsunamis/blockstates/voidfluidtype_1.json",
+          "src/main/java/net/chaos/simpletsunamis/item/Voidfluidtype1Item.java",
+          "src/main/java/net/chaos/simpletsunamis/block/Voidfluidtype1Block.java"
+        ]
+      }
+    },
+    {
+      "name": "Voidfluidtype2",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "voidfluidtype_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/chaos/simpletsunamis/fluid/types/Voidfluidtype2FluidType.java",
+          "src/main/java/net/chaos/simpletsunamis/block/Voidfluidtype2Block.java",
+          "src/main/resources/assets/simple_tsunamis/models/item/voidfluidtype_2_bucket.json",
+          "src/main/resources/assets/simple_tsunamis/items/voidfluidtype_2_bucket.json",
+          "src/main/java/net/chaos/simpletsunamis/item/Voidfluidtype2Item.java",
+          "src/main/resources/assets/simple_tsunamis/models/block/voidfluidtype_2.json",
+          "src/main/java/net/chaos/simpletsunamis/fluid/Voidfluidtype2Fluid.java",
+          "src/main/resources/assets/simple_tsunamis/blockstates/voidfluidtype_2.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:Voidfluidtype2",
+      "~CUSTOM:Voidfluidtype1",
+      "~CUSTOM:TsunamiLava",
+      "~CUSTOM:TsunamiWater"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "fluid.simple_tsunamis.tsunami_water": "Tsunami Water",
+      "item.simple_tsunamis.tsunami_water_bucket": "Bucket of Water Tsunami",
+      "block.simple_tsunamis.tsunami_water": "Tsunami Water",
+      "block.simple_tsunamis.tsunami_lava": "Tsunami Lava",
+      "item.simple_tsunamis.tsunami_lava_bucket": "Bucket of Lava Tsunami",
+      "fluid.simple_tsunamis.voidfluidtype_1": "Void Fluid",
+      "item.simple_tsunamis.voidfluidtype_1_bucket": "Bucket of Void Fluid",
+      "fluid.simple_tsunamis.voidfluidtype_2": "Void Fluid",
+      "item.simple_tsunamis.voidfluidtype_2_bucket": "Bucket of Void Fluid",
+      "item_group.simple_tsunamis.simple_tsunami": "Simple Tsunami",
+      "fluid.simple_tsunamis.tsunami_lava": "Tsunami Lava",
+      "block.simple_tsunamis.voidfluidtype_2": "Void Fluid",
+      "block.simple_tsunamis.voidfluidtype_1": "Void Fluid"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "simple_tsunamis",
+    "modName": "Simple Tsunamis",
+    "version": "1.0.0",
+    "author": "Kalle, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.5",
+    "modElementsPackage": "net.chaos.simpletsunamis"
+  },
+  "mcreatorVersion": 202500113416
+}

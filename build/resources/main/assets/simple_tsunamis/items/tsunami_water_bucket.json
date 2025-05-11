@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "simple_tsunamis:item/tsunami_water_bucket"
+  }
+}

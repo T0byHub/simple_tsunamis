@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "simple_tsunamis:block/tsunami_water"
+    }
+  }
+}

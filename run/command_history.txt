@@ -1,0 +1,11 @@
+/locate biome minecraft:badlands
+/tp @s 2569 84 -2789
+/tick sprint
+/tick sprint 3d
+/gamerule randomTickSpeed 10
+/tick rate 200
+/tick rate 1
+/tick rate 20
+/tick rate 200
+/locate biome minecraft:badlands
+/locate biome minecraft:sunflower_plains
